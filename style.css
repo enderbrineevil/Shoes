@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+}
+ul{
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+nav ul{
+width: 50%;
+}
+nav ul li{
+    margin-right: 15px;
+
+}
+main{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 50px;
+    width: 20vw;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+button{
+    background: none;
+    padding: 15px;
+    border-radius: 5px;
+}
